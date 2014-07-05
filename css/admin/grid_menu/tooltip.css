@@ -1,0 +1,342 @@
+#dynatip {
+    display:none;
+    background:transparent url(../../../images/admin/black_arrow.png);
+    font-size:12px;
+    height:70px;
+    width:170px;
+    padding:25px;
+    color:#fff;    
+    padding-left: 35px;
+}
+
+/* style the trigger elements */
+#dyna img {
+    border:0;
+    cursor:pointer;
+    margin:0 8px;
+}
+
+
+.menu_icon
+{
+    list-style: none;
+    padding-left: 0px !important;
+    width: 100%;
+}
+
+.menu_icon li
+{
+    background-image: none !important;
+    float:left;
+    list-style: none;
+    padding-left:0px !important;
+    text-align: center;
+    width: 33%;    
+} 
+
+.menu_icon a
+{
+    cursor: pointer;    
+   display: block;
+        height: 64px;
+       width: 64px;  
+    padding: 0 !important;
+    margin: 0 auto 5px !important;  
+}
+
+.menu_icon .page_manager
+{
+    background: transparent url('../../../images/admin/i_pageManager.png') top left no-repeat !important;
+}
+
+.menu_icon .menu_manager
+{
+    background: transparent url('../../../images/admin/i_menuManager.png') top left no-repeat !important;
+}
+
+.menu_icon .block_manager
+{
+    background: transparent url('../../../images/admin/i_blockManager.png') top left no-repeat !important; 
+}
+
+.menu_icon .file_manager
+{
+    background:transparent url('../../../images/admin/i_fileManager.png') top left no-repeat !important; 
+}
+
+.menu_icon .user_manager
+{
+    background: transparent url('../../../images/admin/i_userManager.png') top left no-repeat !important;  
+}
+.menu_icon .leads_manager
+{
+    background: transparent url('../../../images/admin/i_userManager.png') top left no-repeat !important;  
+}
+
+.menu_icon .article_manager, .menu_icon .content_manager
+{
+    background: transparent url('../../../images/admin/i_articleManager.png') top left no-repeat !important;
+}
+
+
+.menu_icon .admin_frontpage, .menu_icon .collective_manager
+{
+    background: transparent url('../../../images/admin/i_frontPageManager.png') top left no-repeat !important;
+}
+
+    .menu_icon .admin_frontpage:hover, .menu_icon .collective_manager:hover
+    {
+        background:transparent url('../../../images/admin/i_frontPageManager.png') bottom left no-repeat !important;    
+    }
+
+/* Logout */
+.menu_icon .logout
+{
+    background: transparent url('../../../images/admin/i_logout.png') top left no-repeat !important;
+}
+
+
+    .menu_icon :hover
+    {
+        background-position: bottom right !important;  
+    }
+
+
+/*Import Manager*/
+.menu_icon .import_manager
+{
+    background:transparent url('../../../images/admin/i_importManager.png') no-repeat scroll right top !important;      
+}
+
+    .menu_icon .import_manager:hover
+    {
+        background:transparent url('../../../images/admin/i_importManager.png') no-repeat scroll right bottom !important;      
+    }
+
+/*Product Manager*/ 
+.menu_icon .product_manager
+{
+    background:transparent url('../../../images/admin/i_productManager.png') no-repeat scroll right top !important;       
+}
+
+    .menu_icon .product_manager:hover
+    {
+        background:transparent url('../../../images/admin/i_productManager.png') no-repeat scroll right bottom !important;      
+    }
+
+/*Orders Manager*/ 
+.menu_icon .orders_manager
+{
+    background:transparent url('../../../images/admin/i_orderManager.png') no-repeat scroll right top !important;       
+}         
+    .menu_icon .orders_manager:hover
+    {
+        background:transparent url('../../../images/admin/i_orderManager.png') no-repeat scroll right bottom !important;      
+    }
+
+/* Website Manager*/
+.menu_icon .website_manager
+{
+    background:transparent url('../../../images/admin/i_websiteManager.png') no-repeat scroll right top !important;       
+}
+    .menu_icon .website_manager:hover
+    {
+        background:transparent url('../../../images/admin/i_websiteManager.png') no-repeat scroll right bottom !important;      
+    }
+    
+/* Testimonial Manager*/
+.menu_icon .testimonial_manager
+{
+    background:transparent url('../../../images/admin/testimonial_icon.png') no-repeat !important;       
+}
+
+.menu_icon .contractrequests
+{
+    background:transparent url('../../../images/admin/contract-icon.png') no-repeat !important; width:64px; height:64px;
+}
+
+/* Area Manager*/
+.menu_icon .area_manager
+{
+   background:transparent url('../../../images/admin/i_areaManager.png') top left no-repeat !important;      
+}
+
+
+   .menu_icon .area_manager:hover
+   {
+       background:transparent url('../../../images/admin/i_areaManager.png') bottom left no-repeat !important;    
+
+   }
+
+/*Builder Manager*/   
+.menu_icon .builder_manager
+{
+    background:transparent url('../../../images/admin/i_buildermanager.png') top left no-repeat !important;      
+}
+
+    .menu_icon .builder_manager:hover
+    {
+        background:transparent url('../../../images/admin/i_buildermanager.png') bottom left no-repeat !important;    
+    }
+    
+/* Global Settings*/
+.menu_icon .settings_manager
+{
+   background:transparent url('../../../images/admin/i_globalSettings.png') no-repeat scroll right top !important;       
+}
+
+   .menu_icon .settings_manager:hover
+   {
+       background:transparent url('../../../images/admin/i_globalSettings.png') no-repeat scroll right bottom !important;      
+   }
+
+
+   
+/* Coupon Manager */
+.menu_icon .coupon_manager
+{
+   background:transparent url('../../../images/admin/i_couponManager.png') no-repeat scroll right top !important;       
+}
+
+
+.menu_icon .coupon_manager:hover
+{
+     background:transparent url('../../../images/admin/i_couponManager.png') no-repeat scroll right bottom !important;       
+}
+
+/* Broadcast Manager */
+.menu_icon .broadcast_manager
+{
+
+   background:transparent url('../../../images/admin/i_broadcastManager.png') no-repeat scroll right top !important;       
+}
+
+
+.menu_icon .broadcast_manager:hover
+{
+     background:transparent url('../../../images/admin/i_broadcastManager.png') no-repeat scroll right bottom !important;       
+}
+
+   
+/* Access Email Template Manager */
+.menu_icon .email_manager
+{
+   background:transparent url('../../../images/admin/i_mailbox.png') no-repeat scroll right top !important;       
+}
+
+
+   .menu_icon .email_manager:hover
+   {
+        background:transparent url('../../../images/admin/i_mailbox.png') no-repeat scroll right bottom !important;       
+   }
+
+   
+.menu_icon .property_manager
+{
+   background:transparent url('../../../images/admin/i_listingManager.png') top left no-repeat !important;         
+}
+
+
+   .menu_icon .property_manager:hover
+   {
+       background:transparent url('../../../images/admin/i_listingManager.png') bottom left no-repeat !important;    
+
+   }
+
+/*Project Manager*/   
+.menu_icon .project_manager
+{
+   background:transparent url('../../../images/admin/i_projectManager.png') top left no-repeat !important;      
+}
+
+
+   .menu_icon .project_manager:hover
+   {
+       background:transparent url('../../../images/admin/i_projectManager.png') bottom left no-repeat !important;    
+   }
+
+/*Reservation Manager*/
+.menu_icon .reservation_manager
+{
+   background:transparent url('../../../images/admin/i_reservationManager.png') top left no-repeat !important;      
+}
+
+
+   .menu_icon .reservation_manager:hover
+   {
+       background:transparent url('../../../images/admin/i_reservationManager.png') bottom left no-repeat !important;    
+   }
+   
+   
+ /*state_manager Manager*/
+.menu_icon .state_manager
+{
+   background:transparent url('../../../images/admin/i_stateManager.png') top left no-repeat !important;      
+}
+
+
+   .menu_icon .state_manager:hover
+   {
+       background:transparent url('../../../images/admin/i_stateManager.png') bottom left no-repeat !important;    
+   }
+
+/*contacts_manager Manager*/
+.menu_icon .contacts_manager
+{
+   background:transparent url('../../../images/admin/i_contactsManager.png') top left no-repeat !important;      
+}
+
+
+   .menu_icon .contacts_manager:hover
+   {
+       background:transparent url('../../../images/admin/i_contactsManager.png') bottom left no-repeat !important;    
+   }  
+
+/*region_manager Manager*/
+.menu_icon .region_manager
+{
+   background:transparent url('../../../images/admin/i_regionManager.png') top left no-repeat !important;      
+}
+
+
+   .menu_icon .region_manager:hover
+   {
+       background:transparent url('../../../images/admin/i_regionManager.png') bottom left no-repeat !important;    
+   }  
+
+/*australisa_manager  Manager*/
+.menu_icon .australia_manager 
+{
+   background:transparent url('../../../images/admin/i_australia.png') top left no-repeat !important;      
+}
+
+
+.menu_icon .australia_manager:hover
+   {
+       background: url("../../../images/admin/i_australia.png") no-repeat scroll right bottom transparent !important;
+		   
+   }     
+
+   /*notification_manager  Manager*/
+.menu_icon .notification_manager 
+{
+   background:transparent url('../../../images/admin/i_email_notification.png') top left no-repeat !important;      
+}
+
+
+.menu_icon .notification_manager:hover
+   {
+       background: url("../../../images/admin/i_email_notification.png") no-repeat scroll right bottom transparent !important;
+		   
+   }  
+
+
+
+
+
+
+
+
+
+
+   

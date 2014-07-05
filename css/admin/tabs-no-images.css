@@ -1,0 +1,95 @@
+
+/* root element for tabs  */
+ul.css-tabs {  
+	margin:0 !important; 
+	padding:0 !important;
+	height:30px !important;
+	border-bottom:1px solid #666 !important;	 	
+}
+
+/* single tab */
+ul.css-tabs li {  
+	float:left !important;	 
+	padding:0 !important; 
+	margin:0 !important;  
+	list-style-type:none !important;	
+	background:none;
+}
+
+/* link inside the tab. uses a background image */
+ul.css-tabs a { 
+	float:left;
+	font-size:13px;
+	display:block;
+	padding:5px 20px;	
+	text-decoration:none;
+	border:1px solid #666;	
+	border-bottom:0px;
+	height:18px;
+	background-color:#efefef;
+	color:#777;
+	margin-right:2px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	position:relative;
+	top:1px;	
+}
+
+ul.css-tabs a:hover {
+	background-color:#F7F7F7;
+	color:#333;
+}
+	
+/* selected tab */
+ul.css-tabs a.current {
+	background-color:#ddd;
+	border-bottom:2px solid #ddd;	
+	color:#000;	
+	cursor:default;
+}
+
+	
+/* tab pane */
+div.css-panes > div {
+	display:none;
+	border:1px solid #666;
+	border-width:0 1px 1px 1px;
+	min-height:150px;
+	padding:15px 20px;
+	background-color:#ddd;	
+}
+
+
+
+/* alternate colors: skin2 */
+ul.skin2 a {
+	background-color:#89a;		
+	color:#fff !important;
+	border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+}
+
+/* mouseover state */
+ul.skin2 a:hover {
+	background-color:#678;
+}
+
+/* active tab */
+ul.skin2 a.current {
+	background-color:#4F5C6A;
+	border-bottom:2px solid #4F5C6A;
+	border-radius:5px 5px 0 0;
+}
+
+/* tab pane with background gradient */
+div.skin2 > div {
+	min-height:240px;
+	color:#000;	
+	background:#fff repeat-x scroll 0 -50px;
+	
+	/* IE6 does not support PNG24 images natively */
+	_background:#4F5C6A;
+}

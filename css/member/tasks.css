@@ -1,0 +1,68 @@
+#frmDetails fieldset
+{
+    width: 250px;
+    float: left;
+    height: 315px;    
+}
+
+#frmDetails input[type="text"]
+{
+    width: 230px; 
+    margin-bottom: 6px;   
+}
+
+#frmDetails select
+{
+    width: 230px; 
+    margin-bottom: 6px;   
+}
+
+#frmDetails textarea
+{
+    width: 230px;    
+    height: 250px;
+}
+
+#frmDetails #taskCompletedWrapper
+{
+    margin-top: 10px;    
+}
+
+#frmDetails label.error
+{
+    display: none !important;    
+}
+
+#frmDetails input.error
+{
+    border: 1px solid red;    
+}
+
+#frmDetails input.error, #frmDetails select.error
+{
+    border-color: red;    
+}
+
+body {
+	font-size: 62.5%;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+
+table {
+	font-size: 1em;
+}
+.demo-description {
+	clear: both;
+	padding: 12px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+.partners .mainCol {
+float: left;
+width: 640px;
+}

@@ -1,0 +1,219 @@
+/* Note that the form also shares attributes with the feature class in main.css ----------------------------------------  */   
+
+form 
+{ 
+   background: #fff;         
+   width: 100%;
+} 
+    
+fieldset 
+{
+   margin-bottom: 10px !important;
+   margin-bottom: 40px;
+   margin-top: 10px;   
+} 
+
+legend
+{
+   color: #272228;
+   font-weight: bold;
+   font-size: 11pt;
+   margin-bottom: 5px;   
+}
+
+label 
+{
+   color: #333;    
+   display: block; 
+   font-size: 0.9em;            
+   padding-top: 0.2em; 
+   font-weight: bold;
+   padding-bottom: 2px;
+   padding-top: 8px;         
+} 
+
+input, textarea, select   
+{
+   background: url(../../images/admin/grad_grey.jpg) top left repeat-x; 
+   border: 1px solid #999;    
+   padding: 0.25em; 
+   width: 260px; 
+} 
+
+input.haft
+{
+    width: 130px;
+}
+
+input.brochure_header
+{
+    width: 160px; 
+}
+
+select   
+{
+    width: 270px; 
+}
+
+input[type="checkbox"], input[type="radio"]
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0;
+	background: none;
+	width: auto;
+}
+
+option
+{
+    background-color: transparent;
+    border: 0;
+} 
+
+input:focus   
+{
+    /*background: #fff;    */
+}
+
+textarea 
+{ 
+    overflow: auto;
+    height: 100px;
+} 
+
+textarea.message
+{
+    width: 380px;
+} 
+
+#button, .button, .formsubmit, .smallbutton, a.input_button
+{
+    /*background: #8BC43F url(../../images/admin/bk_btn.png) top left repeat-x;*/
+    /*border: 1px solid #62882b; */
+    background: #000000 url(../../images/admin/bk_btn.png) top left repeat-x;
+    border: 1px solid #CCCCCC;  
+		border-radius: 5px;                                  
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;    
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;        
+    height: 26px;          
+    width: auto;    
+    font-family: Verdana !important;  
+    font-style: inherit !important;
+} 
+
+#button:hover, .button:hover, .formsubmit:hover, .smallbutton:hover 
+{
+    background-position: bottom left;  
+} 
+
+a.button
+{
+	display: block;
+	padding: 5px 5px;
+	width: 130px;
+	text-decoration: none;
+	height: auto;
+}
+
+	a.button:hover
+	{
+		color: #FFFFFF;
+	}
+    
+a.button.confirm
+{
+    background-color: #8B0304;    
+    text-align: center;
+}
+
+span.compulsory
+{
+    color: #2d5ca6;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+label.error 
+{ 
+   padding: 5px; 
+   width: 260px;
+   color: #0096cb;
+   font-weight: bold;
+   text-align: left;
+   background-color: #FFFFFF; 
+   display: block;
+}
+
+div.warn 
+{
+    background-color: #FFFFC0;
+    padding: 10px;
+    font-weight: bold;
+    width: 250px;    
+}
+
+div.error
+{
+    width: 260px;
+    float:right;
+    margin-right:150px;
+}
+
+
+input.error, textarea.error   
+{
+    border: 2px solid #0096cb;
+    float:left;
+}
+
+.smallbutton
+{
+	background-color: #ccc;
+	border-color: #999;
+	width: 132px !important;
+} 
+
+.smallinput
+{
+	width: 150px !important;
+}
+
+.w_close
+{
+    background: url(../../images/admin/window_close.png) no-repeat;
+    width:100%;
+    display:block;
+    width:24px;
+    height:24px;
+    float:right;
+}
+
+.w_close:hover
+{
+    background: url(../../images/admin/window_close_over.png) no-repeat;
+}
+
+.w_caption
+{
+    width:100%;
+    height:20px;    
+}
+
+#frmHTMLEmail #from_price, #frmHTMLEmail #to_price
+{
+    width: 121px;
+} 
+
+#website select
+{
+	width: 150px;
+	margin-right: 20px;
+}
+
+#frmArticle #async_hero_upload_file
+{
+	margin-left: -10px;
+}

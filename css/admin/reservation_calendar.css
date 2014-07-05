@@ -1,0 +1,62 @@
+.reservation .dp-popup
+{
+   width:870px !important; 
+   background-color: #8899AA;
+}
+.reservation h2
+{
+    visibility:visible !important;
+    font-weight: bold;
+    text-transform: none !important;
+    font-size: 18px !important;
+    color: white !important;
+        
+}
+.reservation table.jCalendar tr
+{
+    font-size: 16px !important;
+    vertical-align: middle;    
+}
+.reservation table.jCalendar tr td
+{     
+ /*   background-color: #FFFFFF;*/
+    color:black;
+    font-weight: bold;
+}
+.reservation table.jCalendar th
+{
+    font-size: 16px !important;
+    vertical-align: middle;
+    background-color: #D2833F !important;
+    color:#E3F3F9 !important;
+}
+.reservation .dp-calendar
+{
+    height: 350px;
+}
+.reservation div.dp-popup a.disabled
+{
+    color: white !important;
+}
+
+.reservation div.dp-popup td 
+{
+    cursor:default !important; 
+}
+
+.reservation table.jCalendar td.selected
+{
+    background: #4F5C6A none repeat scroll 0 0 !important;
+    color: white !important;
+}
+.reservation td.dp-hover { 
+    background: none !important;
+}
+.reservation today
+{
+    background: none !important;
+}
+.reservation td.other-month {
+    background: #ddd !important;
+    color: #aaa !important;
+}

@@ -1,0 +1,279 @@
+body.home
+{
+    background: url('../../images/member/header-bk-tile.png') top left repeat;     
+}
+
+.home #wrapper
+{
+    background: url('../../images/member/home-bk-glow.png') top center no-repeat;    
+}
+
+.home img#logo
+{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0 30px;
+}
+
+.home .mainCol
+{
+    background: #fff;
+    -webkit-border-radius: 10px; border-radius: 10px; 
+    float: none;    
+    margin: 0 auto 15px;
+    padding: 15px;    
+    width: 430px;
+}
+
+.home p.welcome
+{
+    color: #808080;
+    font-size: 17px;
+    font-family: 'PTSansBold', sans-serif;  
+    font-weight: normal;    
+    line-height: 1.6em;
+	text-align: center;
+}
+
+.home p.welcome em
+{
+    color: #a50d12; 
+    font-weight: normal;  
+    font-style: normal;    
+}
+
+.home form
+{
+    border-top: 1px solid #e8e8e8;
+    padding: 15px 0 40px;
+    position: relative;
+    text-align: center;
+}
+
+.home form h3
+{
+    color: #a50d12;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+ .home label
+{
+    color: #262626;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    float: none;
+    font-family: 'PTSansBold', sans-serif;      
+    font-size: 13px;
+    font-weight: normal;    
+    margin: 2px 0 1px 40px;  
+    padding: 0 5px 0 0;
+    width: 65px;
+}
+
+.home input[type="text"], .home input[type="password"]
+{
+    background: #fff;;
+    border: 2px solid #f5f5f5;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    margin: 0 40px 5px 0;      
+    padding: 2px 5px;
+    width: 233px;
+}
+
+.home input[type="submit"]
+{
+    background: #a50d12 url('../../images/member/btn-bk-arrow.png') right 7px no-repeat;  
+    -webkit-border-radius: 10px; border-radius: 10px; 
+    clear: both;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    font-family: 'PTSansBold', sans-serif;      
+    font-size: 12px;
+    line-height: 12px !important;
+    padding: 3px 18px 4px 10px;
+    position: absolute;
+        bottom: 20px; right: 55px;
+    text-decoration: none;
+}
+
+.home input[type="submit"]:hover
+{
+    background-color: #cd171f;
+    -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -ms-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out;       
+}
+
+@-moz-document url-prefix()
+{
+    .home input[type="submit"]
+    {
+        line-height: 12px !important;
+        margin: 0;
+        padding: 0px 18px 0px 10px;
+    }
+} 
+
+ul.options
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    text-align: center;
+}
+
+.options li
+{
+    border-left: 1px solid #c7c7c7;
+    background: transparent;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline;
+    line-height: 0.92em;
+    margin: 0;
+    padding: 0;
+}
+
+.options li:first-child
+{
+    border-left: 0 none;
+}
+
+.options a
+{
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline;    
+    font-family: 'PTSansBold', sans-serif;      
+    font-size: 12px;  
+    line-height: 1em;
+    margin: 0;
+    padding: 0 10px 0 13px;      
+}
+
+.home #footer
+{
+    background: transparent;      
+}
+
+.home #footer .content
+{
+    background: transparent;     
+    height: 130px;     
+    position: relative;
+}
+
+.home #footer .contact
+{  
+    margin: 0 auto;
+    position: relative;
+        bottom: auto; left: auto;
+    text-align: left;
+}
+
+.home #footer .contact h6
+{
+    color: #666;
+    font-size: 15px;
+    font-family: 'PTSansBold', sans-serif;    
+    font-weight: normal; 
+    text-transform: uppercase;   
+}
+
+.home #footer .contact p
+{
+    color: #666;
+    font-size: 13px;
+    position: relative;
+    text-align: left;     
+}
+
+.home #footer .contact p em
+{
+    font-family: 'PTSansBold', sans-serif;    
+    font-weight: normal;
+}
+
+.home #footer p
+{
+    color: #4d4d4d;
+    font-size: 12px;
+    position: absolute;
+        bottom: 3px; left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.home #frmLogin label.error
+{
+    display: none !important;    
+}
+
+.home #frmLogin input.error
+{
+    border: 1px solid red;    
+}
+
+.home #frmRegister label
+{
+    width: 150px;    
+}
+
+.home #frmRegister label.error
+{
+    display: none !important;    
+}
+
+.home #frmRegister input.error, .home #frmRegister select.error
+{
+    border-color: red;    
+}
+
+.home #frmRegister select
+{
+    background: #fff;;
+    border: 2px solid #f5f5f5;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    margin: 0 40px 5px 0;      
+    padding: 2px 5px;
+    width: 245px;
+}
+
+
+.home #frmReset label
+{
+    width: 150px;    
+}
+
+.home #frmReset label.error
+{
+    display: none !important;    
+}
+
+.home #frmReset input.error, .home #frmReset select.error
+{
+    border-color: red;    
+}
+
+div.hint
+{
+    padding: 5px;
+    width: 300px;
+    background-color: #FFFFC0;    
+    margin: 10px 0 10px 90px;
+}
+
+#passwordReset form p, #passwordReset form ul li
+{
+    font-size: 14px;
+    font-family: 'PTSansRegular',sans-serif;    
+    line-height: 1.0em;
+    text-align: left;
+    font-weight: bold;
+}
+
+#passwordReset form ul
+{
+    list-style-type: square;    
+}
+
+#passwordReset form ul li {
+    margin-left: 20px;    
+}
+

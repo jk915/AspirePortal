@@ -1,0 +1,2 @@
+        <label for="discount_num">Discount <span id="discount_type">%</span>:<span class="requiredindicator">*</span></label>                             
+        <input type="text" id="discount_num" class="" value="<?php echo ($coupon_id !="") ? $coupon->discount : "" ?>" />                                                                                    

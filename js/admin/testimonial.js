@@ -1,0 +1,3 @@
+$(function(){
+    $('#frmTestimonial').validate();
+});

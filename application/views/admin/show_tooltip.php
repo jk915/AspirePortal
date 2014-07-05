@@ -1,0 +1,1 @@
+<span class="question_mark" title="<?php echo $tooltip_message ?>">&nbsp;&nbsp;&nbsp;&nbsp;</span>

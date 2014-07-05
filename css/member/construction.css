@@ -1,0 +1,151 @@
+.construction .mainCol {
+    float:  right;
+    width:50%;
+    margin-left: 20px;
+}
+
+.construction .sidebar {
+    float:  left;
+    width: 47%;
+}
+
+.construction h1{
+    
+}
+.construction table{
+    border: 1px solid #C3C3C3;
+    border-collapse: collapse;    
+}
+.construction tr.view_stage{
+    cursor:pointer;
+}
+.construction tr.view_stage:hover td{
+    color:#A50D12;
+}
+
+.construction th{
+    /*
+    background: none;
+    color:#4C4C4C;
+    border-right:1px solid #C3C3C3;
+    border-bottom:1px solid #C3C3C3;
+    */
+    background: none repeat scroll 0 0 #808080;
+    border: 0 none;
+    color: #FFFFFF;
+    font-family: 'PTSansBold',sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 10px;
+    text-align: left;    
+}
+.construction  td{
+    background: none;
+    border-right:1px solid #C3C3C3;
+}
+.construction  td a{
+    cursor: pointer;
+}
+.construction  td.tick{
+    background: url("../../images/member/tick.png") no-repeat scroll center center transparent;
+
+}
+.construction #stage_details{
+    width:650px;
+    min-height: 450px;
+}
+.construction .stage_thumb{
+    width:150px;
+    margin-right: 10px;
+    margin-top:10px;
+}
+.construction h3.stage_doc
+{
+    margin-top: 10px;
+}
+.construction a.s_doc{
+    background: url("../../images/member/icon-document.png") no-repeat scroll left center transparent;
+    padding-left:30px;
+}
+.construction h3.stage_name
+{
+    background: #EFEFEF;
+    margin:0 0 10px 0;
+    padding:0 0 0 10px;
+    line-height: 1.4em;
+    
+}
+table.keydatelisting tr th {
+text-align: center;
+}
+table.commentlisting tr th {
+text-align: center;
+}
+
+.button {
+	border: 1px solid #CCCCCC;
+	padding: 4px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+	height: 26px;
+	width: auto;
+	text-decoration: none;
+}
+.button:hover {color: #FFFFFF;}
+
+.btn-blue {
+	background: #0039ad;
+}
+.btn-red {
+	background: #a50d12;
+}
+
+.btn-green {
+	background: #0da511 url('../../images/member/btn-bk-arrow.png') right 7px no-repeat;
+	padding: 3px 18px 4px 9px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	clear: both;
+	color: #fff;
+	cursor: pointer;
+	float: right;
+	font-size: 12px;
+	line-height: 1em;
+	margin: 0 0 15px;
+	position: relative;
+	text-decoration: none;
+}
+.btn-green:hover {
+	background-color: #17cd1b;
+	color: #fff;
+	-webkit-transition: all 150ms ease-in-out;
+	-moz-transition: all 150ms ease-in-out;
+	-ms-transition: all 150ms ease-in-out;
+	-o-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+}
+
+.btn-black {
+	background: #626468;
+}
+
+.head3 {
+	font-family: 'PTSansBold', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0 0 10px 0;
+	color: #4c4c4c;
+}
+
+
+
+
+
+

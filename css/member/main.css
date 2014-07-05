@@ -1,0 +1,1114 @@
+/*----------------------------------------
+Main stylesheet for: Aspire
+----------------------------------------*/ 
+
+/* Styles reset, HTML & body styling -------------------------------------------------------------------------------------  */     
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, apress, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, p, ol, ul, li, title, fieldset, form, legend, input, table
+{
+    border: 0;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: normal;                
+    outline: 0;     
+}
+
+/*  Sticky Footer Solution by Steve Hatcher  http://stever.ca http://www.cssstickyfooter.com */
+* {margin:0;padding:0;} 
+html, body {height: 100%;}
+#wrapper {min-height: 100%;}
+#footer {position: relative; margin-top: -130px; /* negative value of footer height */ height: 130px; clear:both;} 
+
+html
+{
+    background-color: #282828;  
+    overflow-x: hidden;
+    overflow-y: scroll;    
+}
+
+body
+{    
+    color: #262626;
+    font: 14px/1.4em 'PTSansRegular', sans-serif;
+    position: relative;
+}
+
+#wrapper
+{ 
+    background: #f2f2f2;       
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#main
+{
+    overflow:auto;    
+    padding: 40px 0 170px;
+}
+
+.content
+{
+    overflow: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+/* Type and styling -------------------------------------------------------------------------------------  */
+
+@font-face {
+    font-family: 'PTSansBold';
+    src: url('fonts/PTS75F-webfont.eot');
+    src: url('fonts/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTS75F-webfont.woff') format('woff'),
+         url('fonts/PTS75F-webfont.ttf') format('truetype'),
+         url('fonts/PTS75F-webfont.svg#PTSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('fonts/PTS55F-webfont.eot');
+    src: url('fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTS55F-webfont.woff') format('woff'),
+         url('fonts/PTS55F-webfont.ttf') format('truetype'),
+         url('fonts/PTS55F-webfont.svg#PTSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+				font-family: '12avenir95black';
+				src: url('fonts/12avenir95black09173.eot');
+				src: url('fonts/12avenir95black09173.eot?#iefix') format('embedded-opentype'),
+						 url('fonts/12avenir95black09173.woff') format('woff'),
+						 url('fonts/12avenir95black09173.ttf') format('truetype'),
+						 url('fonts/12avenir95black09173.svg#calibanstd') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+		
+		@font-face {
+				font-family: '12avenir65medium06173';
+				src: url('fonts/12avenir65medium06173.eot');
+				src: url('fonts/12avenir65medium06173.eot?#iefix') format('embedded-opentype'),
+						 url('fonts/12avenir65medium06173.woff') format('woff'),
+						 url('fonts/12avenir65medium06173.ttf') format('truetype'),
+						 url('fonts/12avenir65medium06173.svg#calibanstd') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+		
+
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #262626;   
+    font-family: 'PTSansBold', sans-serif;
+    font-weight: normal;
+    font-size: 16px; 
+    line-height: 1.2em;  
+    margin: 0;
+    padding: 0 0 10px 0;    
+}
+
+h1, h2
+{
+    color: #a50d12;
+    font-size: 21px;
+}
+
+h3
+{
+    color: #4c4c4c;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+p, li, address, .caption, caption, th, td, dt, dd, blockquote
+{   
+    font-family: 'PTSansRegular', sans-serif;    
+    font-size: 14px;
+    line-height: 1.4em; 
+    font-style: normal;
+    padding: 0 0 10px 0;    
+}
+
+em
+{
+    font-style: normal;
+    font-weight: bold;
+} 
+
+a
+{
+    color: #808080;
+} 
+    
+    a:hover
+    {
+        color: #a50d12;
+    }
+    
+	
+.headerFont{font-family: '12avenir95black' !important;}
+#btnReset, #btnRegister{font-family: '12avenir65medium06173' !important;}
+.headerFont1{font-family: '12avenir65medium06173' !important;}
+/* Header -------------------------------------------------------------------------------------  */     
+#header
+{
+    background: #a50d12 url('../../images/member/header-bk-tile-default.png') top left repeat-x;      
+}
+
+#header .content
+{   
+    height: 170px;
+    position: relative;
+}
+
+img#logo
+{
+    padding-top: 15px;
+}
+
+#loggedIn
+{
+    background: url('../../images/member/header-loggedin-bk.png') top left repeat-x;      
+    height: 87px; width: 264px;
+    padding: 50px 40px 0;
+    position: absolute;
+        top: 0; right: 0;
+}
+
+#loggedIn p
+{
+    color: #fff;
+    font-family: 'PTSansBold', sans-serif;    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#loggedIn ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#loggedIn li
+{
+    background: url('../../images/member/header-divider.png') center left no-repeat;    
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    font-family: 'PTSansBold', sans-serif;    
+    font-size: 11px;    
+    line-height: 0.92em;
+    margin: 0;
+    padding: 0;
+}
+
+#loggedIn li:first-child 
+{
+    background: transparent;
+}
+
+#loggedIn .link
+{
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline;  
+    padding: 0 10px 0 13px;
+    text-transform: uppercase;
+	color:#fff;
+}
+
+#loggedIn .link:hover
+{
+    color:#C9B20B;
+}
+
+#loggedIn .linkmailto
+{
+	color:#FFF;
+}
+
+.linkmailto a
+{
+	color:#FFF;
+	text-decoration: none;
+}
+
+
+/* Navigation -------------------------------------------------------------------------------------  */ 
+
+ul#nav
+{
+    height: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    //bottom: 0; 
+    left: 0;
+}
+
+    #nav li
+    {
+        float: left;
+        margin: 0;
+        padding: 0;
+    } 
+    
+    #nav a
+    {
+        border: 1px solid #a50d12;
+        border-width: 0 1px;
+        color: #e5e5e5;
+        display: block;
+        font-size: 14px;
+        font-family: 'PTSansBold', sans-serif;
+        height: 30px;
+        line-height: 30px;
+        margin: 0;
+        padding: 0 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    #nav a:hover, #nav a.active
+    {
+        background: url('../../images/member/nav-hover-bk.png') top left repeat-x;  
+        border-color: #bf4549;
+        color: #fff;
+    }
+    
+/* Sidebar -------------------------------------------------------------------------------------  */     
+
+.sidebar
+{
+    float: left;
+    width: 280px;
+}
+
+.block
+{
+    background: #fff;
+    border: 2px solid #e9e9e9;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; 
+    margin: 0 0 15px;
+    padding: 15px;
+}
+
+.sidebar ul
+{
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0 0 0 0;
+}
+
+.sidebar li
+{
+    background: url('../../images/member/arrow.png') left 5px no-repeat;      
+    font-size: 13px;
+    padding: 0 0 3px 15px;
+}
+
+.slide_featured_property
+{
+	margin:0 !important;
+}
+
+.slide_featured_property li
+{
+	background:none;
+	padding:0px;
+	position:absolute;
+}
+
+ul.slide_featured_property li.show {
+	z-index:500;	
+}
+
+#project-dl {
+	background: url('../../images/member/project-dl.png') bottom left no-repeat;
+	display: block;
+	height: 25px;
+	width: 172px;
+	margin: 0 auto;
+	padding: 0;
+	text-indent: -99999px;
+}
+#project-dl:hover {
+	background-position: top;	
+}
+
+/* Main content area -------------------------------------------------------------------------------------  */  
+
+ul.breadcrumbs
+{
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.breadcrumbs li
+{
+    background: url('../../images/member/breadcrumb-divider.png') left center no-repeat; 
+    color: #999;    
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    font-size: 13px;
+    line-height: 1em;
+    margin: 0;
+    padding: 0 5px 0 15px;
+}
+
+.breadcrumbs li:first-child
+{
+    background: transparent;
+    border-left: 0;
+    padding-left: 0;
+}
+
+.breadcrumbs a
+{
+    color: #666;
+    line-height: 1em;
+}
+
+    .breadcrumbs a:hover
+    {
+        color: #a50d12;
+    }
+
+.mainCol
+{
+    float: right;
+    width: 640px;
+}
+
+table
+{
+    margin: 0 0 15px;
+    padding: 0;
+    width: 100%;
+}
+
+tr.intro td
+{
+    background: url('../../images/member/table-top-bk.png') bottom left no-repeat;  
+    color: #fff;
+    font-family: 'PTSansBold', sans-serif;    
+    font-size: 18px;
+    line-height: 1em;
+    padding: 10px;
+}
+
+th
+{
+    background: #808080;
+    border: 0 none;
+    color: #fff;
+    font-family: 'PTSansBold', sans-serif;    
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 10px;   
+    text-align: left; 
+}
+
+td
+{
+    background: url('../../images/member/table-border.png') top left no-repeat;      
+    color: #262626;
+    font-size: 13px;
+    padding: 4px 10px 3px;
+}
+
+table.zebra .alt td
+{
+    background-color: #f7f7f7;
+}
+
+.zebra select
+{
+    border: 2px solid #f5f5f5;
+    margin: 0 0 5px;      
+    padding: 2px 5px;
+    width: 247px;
+}
+
+a.btn
+{
+    background-color: #a50d12;
+    -webkit-border-radius: 10px; border-radius: 10px; 
+    clear: both;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    line-height: 1em;
+    margin: 0 0 15px;
+    padding: 3px 10px 4px;
+    position: relative;
+    text-decoration: none;
+}
+
+a.btn.inline
+{
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    float: none; 
+}
+
+a.btn.secondary
+{
+    background-color: #4c4c4c; 
+}
+
+a.arrow
+{
+    background: #a50d12 url('../../images/member/btn-bk-arrow.png') right 7px no-repeat;  
+    padding-right: 18px;
+}
+
+a.btn:hover, a.arrow:hover
+{
+    background-color: #cd171f;
+    -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -ms-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out;       
+}
+
+a.btn.green
+{
+    background-color: green;
+}
+
+a.btn.secondary:hover
+{
+    background-color: #999; 
+}
+
+table a.btn
+{
+    margin: 0 -10px -3px 0;
+}
+
+.mainCol ul
+{
+    list-style-type: square;
+    margin: 0 0 15px;
+    padding: 0 0 0 30px;
+}
+
+ul.pagination
+{
+    list-style: none;
+    margin: -3px 0 12px;
+    padding: 0;
+    text-align: center;
+}
+
+.pagination li
+{
+    background: transparent;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    margin: 0;
+    padding: 0;
+}
+
+.pagination a
+{
+    color: #a50d12;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    font-family: 'PTSansBold', sans-serif; 
+    font-size: 12px;
+    padding: 2px 5px;    
+    text-decoration: none;
+    -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -ms-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out;    
+}
+
+.pagination a:hover
+{
+    color: #cd171f; 
+} 
+
+.pagination a.active
+{
+    color: #FFFFFF;
+    background-color: #a50d12; 
+} 
+
+/* partners page */
+.partners .mainCol
+{
+    float: left;
+}
+
+.partners .sidebar
+{
+    float: right;
+}
+
+/* Footer -------------------------------------------------------------------------------------  */  
+#footer
+{
+    background: url("../../images/member/header-bk-tile.png") repeat-x scroll left top #A50D12;
+}
+
+#footer .content
+{
+
+    height: 130px;     
+    position: relative;
+}
+
+#footer .contact
+{  
+    position: relative;
+	bottom: 0; top:30px;
+    width: 250px;
+    float:right;
+}
+
+#footer .contact h6
+{
+    color: #666;
+    font-size: 15px;
+    font-family: 'PTSansBold', sans-serif;    
+    font-weight: normal; 
+    text-transform: uppercase;   
+}
+
+#footer .contact p
+{
+    color: #666;
+    font-size: 13px;
+    position: relative;
+    text-align: left;
+}
+
+#footer .contact p em
+{
+    font-family: 'PTSansBold', sans-serif;    
+    font-weight: normal;
+}
+
+#footer p
+{
+    color: #8e8e8e;
+    font-size: 12px;
+    position: absolute;
+        bottom: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+#footer .logo_footer
+{
+    padding-top: 35px;
+}
+
+/* Forms -------------------------------------------------------------------------------------  */ 
+
+form.block
+{
+    overflow: auto;
+    position: relative;
+}
+
+form.block h3
+{
+    color: #a50d12;
+    padding-bottom: 10px;
+}
+
+ label
+{
+    color: #262626;
+    display: block;
+    font-family: 'PTSansBold', sans-serif;      
+    font-size: 13px;
+    font-weight: normal;    
+    margin: 2px 0 3px;  
+}
+
+span.required
+{
+    color: #a50d12;
+}
+
+.block input[type="text"], .block input[type="password"]
+{
+    border: 2px solid #f5f5f5;
+    margin: 0 0 5px;      
+    padding: 2px 5px;
+    width: 233px;
+}
+
+.block textarea 
+{
+	border: 2px solid #f5f5f5;
+    margin: 0 0 5px;      
+    padding: 2px 5px;
+    width: 233px;	
+}
+
+.block select
+{
+    border: 2px solid #f5f5f5;
+    margin: 0 0 5px;      
+    padding: 2px 5px;
+    width: 247px;
+}
+
+.block input[type="submit"]
+{
+    background: #a50d12 url('../../images/member/btn-bk-arrow.png') right 7px no-repeat;  
+    -webkit-border-radius: 10px; border-radius: 10px; 
+    clear: both;
+    cursor: pointer;
+    color: #fff;
+    display: block;
+    float: right;
+    font-family: 'PTSansBold', sans-serif;      
+    font-size: 12px;
+    line-height: 12px !important;
+    margin: 0;
+    padding: 3px 18px 4px 10px;
+    text-decoration: none;
+}
+
+.block input[type="submit"]:hover
+{
+    background-color: #cd171f;
+    -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -ms-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out;       
+}
+
+.block textarea.fullwidth
+{
+    width: 535px; 
+    height: 50px;    
+}
+
+.block textarea.textwidth
+{
+    width: 233px; 
+    height: 50px;    
+}
+
+.block fieldset {
+    font-size: 13px;
+}
+
+@-moz-document url-prefix()
+{
+    .block input[type="submit"]
+    {
+        line-height: 12px !important;
+        margin: 0;
+        padding: 0px 18px 0px 10px;
+    }
+} 
+
+.block fieldset
+{
+    float: left;
+    padding: 0 40px 15px 0;
+    width: 250px;
+}
+
+label.cblabel
+{ 
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline;
+    float: none;
+    width: auto;  
+}
+
+.searchbox .variable li
+{
+    width: auto;
+}
+
+.block input[type="checkbox"]
+{ 
+    display: inline-block; vertical-align: middle; /* for ie */ zoom: 1; *display: inline; 
+    float: none; 
+    margin: 0 6px 0 0;
+    padding: 0;
+    width: auto;   
+}
+
+.styledCheckbox {
+    background: transparent url('../../images/member/frm-su-checkbox.png') top left no-repeat;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    height: 16px; width: 15px;    
+}
+
+.styledCheckbox.checked
+{
+    background: transparent url('../../images/member/frm-su-checkbox.png') bottom left no-repeat;
+}
+
+form p
+{
+    clear: left;
+    font-size: 12px;
+}
+
+#partnerDetailFrm input[type="submit"]
+{
+    position: absolute;
+        bottom: 25px; right: 82px;
+}
+
+#frmSupport label
+{
+    margin-top: 10px;    
+}
+
+#frmSupport textarea
+{
+    width: 450px;
+    height: 80px;
+}
+
+#frmSupport a.btn
+{
+    float: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100px;
+    text-align: center;    
+}
+
+#frmSupport a.close-reveal-modal
+{
+    text-decoration: none    
+}
+
+div.error
+{
+    background: #f5f5f5;
+    border: 1px solid #a50d12;
+    display: none;
+    margin: 0 0 15px;
+    padding: 15px;
+}
+
+.error h4
+{
+    color: #a50d12;
+}
+
+.error label
+{
+    font-family: 'PTSansRegular', sans-serif;
+}
+
+.success
+{
+    display: none;
+    height: 15px;  
+    margin-bottom: 10px;  
+}
+
+.success h4
+{
+    background: transparent url('../../images/member/tick.png') left top no-repeat; 
+    color: #a50d12;  
+    font-family: 'PTSansRegular', sans-serif;
+    line-height: 14px;
+    padding: 0 0 0 15px;
+}
+
+#article_modal
+{
+    width: 660px;
+    height: 500px;  
+}
+
+#article_modal div
+{
+    position: relative;      
+}
+
+#article_modal dl
+{
+    width: 350px;
+    margin-bottom: 20px;    
+}
+
+
+#article_modal dl dt
+{
+    font-weight: bold;
+    padding: 3px;
+    display: inline-block;
+    width: 120px;   
+}
+
+#article_modal dl dd
+{
+    padding: 3px;
+    display: inline-block;
+    width: 200px;     
+}
+
+#article_modal a.btn
+{
+    float: none;    
+}
+
+#article_modal #modal_video
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;   
+}
+
+div.comments
+{
+    width: 430px;
+    margin-top: 20px;
+    height: 150px;
+    position: relative;   
+}
+
+.articlelisting td {font-size:12px;}
+
+table.listing th.sortable:hover
+{
+    cursor:pointer;
+}
+
+/* jScrollPane */
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+.jspContainer
+{
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+.jspPane
+{
+    position: absolute !important;
+}
+
+.jspVerticalBar
+{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 100%;
+    background: red;
+}
+
+.jspHorizontalBar
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+    margin: 0;
+    padding: 0;
+}
+
+.jspCap
+{
+    display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+    float: left;
+}
+
+.jspTrack
+{
+    background: #ccc;
+    position: relative;
+}
+
+.jspDrag
+{
+    background: #000;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+    float: left;
+    height: 100%;
+}
+
+.jspArrow
+{
+    background: #50506d;
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+    cursor: default;
+    background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+    height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+    width: 16px;
+    float: left;
+    height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+    outline: none;
+}
+
+.jspCorner
+{
+    background: #eeeef4;
+    float: left;
+    height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+    margin: 0 -3px 0 0;
+}
+
+#curtain
+{
+    width: 64px;
+    margin: 50px auto;
+}
+
+.clear
+{
+    clear: both;    
+}
+
+.fleft
+{
+	float:left !important;
+}
+
+.hidden
+{
+    display: none;    
+}
+
+.justify
+{
+	text-align:justify;
+}
+
+.top-margin20 
+{
+    margin-top: 20px;        
+}
+
+.pro_sub{
+    display:none;
+    float:left;
+    position: absolute;
+}
+#nav a:hover ul{
+    display:block;    
+}
+
+.content{
+    overflow: hidden!important;
+}        
+/*Sub menu*/    
+#nav  ul {
+	display: none;
+}
+
+#nav li:hover > ul {
+	display: block;
+}    
+    
+#nav ul {
+	background: #A50D12; 
+    border-radius: 0px; 
+    padding: 0;
+	position: absolute; 
+    top: 100%;
+    z-index:1000;
+    
+}    
+
+#nav ul li {
+    list-style: none;
+	float: none; 
+	position: relative;
+    
+}
+
+#nav ul  li a {
+	padding-left:10px;
+	color: #fff;
+    width:160px;
+    font-weight: normal;
+    font-size:13px;
+}
+	
+#nav  ul li a:hover {
+    background: url("../../images/member/nav-hover-bk.png") repeat-x scroll left top transparent;
+    border-color: #BF4549;
+    color: #FFFFFF;
+}
+
+#main_menu{
+    width:960px;
+    margin:0 auto;
+    position:relative;
+    margin-top:-30px;
+}
+
+
+/*CUSTOM*/
+
+.sidebar ul li{
+list-style-type:none !important;
+}
+
+div.user_report
+{
+	border:2px solid #e9e9e9;
+	padding:5px 20px; 
+	background:#fff;
+	width:240px;
+	height:80px;
+	border-radius:10px;
+}

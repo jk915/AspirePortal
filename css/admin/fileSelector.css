@@ -1,0 +1,36 @@
+#frmSelector
+{
+   padding: 10px; 
+   width: 825px; 
+   text-align: left; 
+}
+
+   #frmSelector label
+   {
+      text-align: left !important;
+      float: left;
+      margin-bottom: 3px;
+   }
+   
+   #frmSelector input, #frmSelector select
+   {
+      float: left;
+      margin-left: 10px;
+   }
+   
+   #divFiles
+   {
+      width: 820px;
+      height: 330px;
+      overflow: hidden;
+   }
+   
+   .asyncUploader .smallbutton
+   {
+       float:none !important;
+   }
+   
+   .select-file
+   {
+       width: 50px;
+   }

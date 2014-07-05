@@ -1,0 +1,871 @@
+/*----------------------------------------
+Main stylesheet for: Myndie CMS
+Website: http://www.myndie.com  
+----------------------------------------*/ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th 
+{
+    border: 0;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: normal;                
+    margin: 0;
+    outline: 0;     
+    padding: 0;
+    vertical-align: baseline;
+}
+    
+html
+{
+    /*background: url(../../images/admin/outer.jpg) top left repeat; */
+    background-color: #f2f2f2;
+}
+
+body 
+{
+    color: #434D53;
+    font: 0.8em/1.4em Verdana, Helvetica, Arial, sans-serif;    
+}
+
+/**************** Utility Classes *****************/
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
+    display: block;
+    height: 0;
+    width: 100%;
+}
+
+.hidden
+{
+   display: none;
+}
+
+.block
+{
+   display: block;
+}
+
+.top-margin
+{
+   margin-top: 15px;
+}
+
+.top-margin-sm
+{
+   margin-top: 10px;
+}
+
+.top-margin-sm2
+{
+   margin-top: 3px;
+}
+
+.top-margin20
+{
+    margin-top: 20px;
+}
+
+.left-margin
+{
+   margin-left: 10px;
+}
+
+.left-margin20
+{
+    margin-left: 20px;
+}
+
+.right-margin
+{
+    margin-right: 10px;
+}
+
+.alignRight
+{
+    text-align: right;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.sprite:hover
+{
+   background-position: bottom;
+}
+
+.thin
+{
+   width: 100px !important;
+}
+
+.intro, .last
+{   
+    border-bottom: 1px dashed #cccccc;
+    color: #0096cb;
+    padding: 1em;     
+}
+
+.intro
+{
+    clear: both;
+    margin-bottom: 20px;
+}
+
+    .intro a, .divider  
+    {
+        color: #445028;
+        font-weight: bold;    
+    }
+    
+    .intro a:hover, .divider
+    {
+        color: #b9da6c;
+    }
+    
+.last
+{
+    margin-bottom: 0;
+}
+
+.top
+{
+    position: relative;
+    z-index: 999;
+}
+
+.last
+{
+    padding-bottom: 20px;
+}
+
+h1, h2, h3, h4
+{ 
+    color: #000000;
+    clear: both;
+    font-size: 1.4em;
+    padding: 10px 0 0.5em 0;         
+}
+
+h3
+{
+    color: #0096cb;
+}
+
+p
+{
+    padding: 0 0 1em 0;
+    line-height: 1.5em;  
+}
+    
+    .intro
+    {
+        font-weight: 900;
+        font-size: 1em;
+    } 
+
+a
+{
+    color: #3c0436;
+}
+    
+a:hover
+{
+    color: #4f6e23;
+}
+
+    .dotted
+    {
+        text-decoration: none;
+        border-bottom: 1px dashed;   
+    }
+
+.dropcap, .greendropcap
+{
+    float:left;
+    font-family: georgia, times, Times New Roman;      
+    font-size: 4em;
+    height: 1em;
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0.05em;
+    position: relative;
+    top: -.1em;
+    vertical-align: text-top;
+}
+
+    .greendropcap
+    {
+        color: #445028;
+    }
+    
+.strong
+{
+    font-weight: bold;
+}
+
+#content ul li.noBullet
+{
+    background: none;  
+}
+
+#content ul
+{
+    list-style-type: none;
+    list-style-image: none;
+    padding-left: 0;  
+}
+
+#content li
+{
+    background: url(../../images/admin/bullet.gif) top left no-repeat;
+    background-position:  0 0.4em;
+    color: #003364;    
+    padding: 0 0 0.5em 12px;   
+}
+
+/* Navigation ----------------------------------------  */
+#divCMSHeader
+{
+	padding: 20px;
+	background-color: #ffffff;
+	height: 50px;
+}
+
+#client_logo
+{
+	margin-top: -20px;
+}
+ 
+#nav
+{
+    background: #8B0304;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;     
+    margin-bottom: 20px;
+    width: 910px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+    #divNavHeading
+    {
+       float: left;
+       padding-left: 20px;
+       width: 150px;
+       margin-top: -5px;
+    }
+    
+
+	#nav ul
+	{   
+		list-style-type: none; 
+		float: right; 
+	}
+
+		#nav ul li
+		{
+			float: left; 	
+		}
+
+		#nav ul li a
+		{    
+			display: block;  
+			margin-right: 5px;         
+			background-color: #FFFFFF;
+			color: #000000;
+			font-size: 11px;
+			font-weight: bold;             
+			text-decoration: none; 
+			text-transform: capitalize;
+			padding: 10px; 
+			border-radius: 5px;                                  
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+		}  
+
+			#nav ul li a:hover
+			{          
+				background-color: #FFFFC0;                   
+			}
+         
+         #nav ul li a.active
+         {          
+            background-color: #FFFFFF;
+            color: #686163;                      
+         }         
+
+/* Layout ----------------------------------------  */     
+#wrapper
+{
+    background-color: #FFFFFF;     
+    margin: 10px auto;
+    max-width: 960px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: 10px;
+}
+    
+#header
+{
+    background: #fff url(../../images/admin/header_bk.jpg) top left repeat-x;
+    clear: both;     
+    height: 100px;
+    padding: 0 20px;    
+}
+
+#lift
+{
+    position: relative;
+    padding-top: 20px;
+
+}
+
+#content
+{
+    background-color: #fff;    
+    padding: 0 20px 0 20px;
+}
+
+#footer
+{
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+    background: #CECDCD;      
+    color: #000000;
+    font-size: 8pt;
+    width: 920px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+	#footer #viewMainSite
+	{
+		float: left;
+		padding: 5px 0 0 5px;
+	}
+	
+	#footer #frmJump
+	{
+		display: block;
+		float: right;
+		padding-left: 20px;
+		padding-top: 5px;
+		width: 200px;
+		background-color:inherit;		
+	}
+    
+    #footer #frmJump select
+    {
+		width: 180px;
+    } 	
+
+    
+    #footer a
+    {
+        color: #666666;
+    }
+    
+    #footer a:hover
+    {
+        color: #CCCCCC;
+    }
+    
+#credit
+{
+    color: #264d8b;
+    font-size: 0.8em;                
+    margin: 0 auto;
+    text-align: right;
+    width: 960px;     
+}
+
+    #credit a
+    {
+        color: #264d8b;
+    }
+    
+
+
+a.readmore
+{ 
+    background: url(../../images/admin/btn_readmore.gif) top left no-repeat;
+    display: block;
+    height: 36px;
+    margin: 0 0 0 302px;    
+    text-decoration: none;      
+    width: 118px;
+}
+
+a.readmore:hover
+{
+    background-position: bottom;
+}
+
+.background
+{
+    background-color: #fff;
+}
+
+.space
+{
+    height: 10px;
+    clear: both;
+}
+
+.border
+{
+    border-bottom: 2px groove #2d5ca6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* Tables ----------------------------------------  */
+
+table a:hover
+{
+    color: #62882b;
+}
+
+table
+{    
+    border: 3px solid #e6edbe;
+    border-width: 3px 0;
+    border-collapse: collapse;
+    color: #3c0436; 
+    margin: 0 auto 2em auto;  
+}
+    
+    td
+    {
+        padding: 0.4em 0.5em 0.4em 0;
+        border: 1px solid #dbd9cd;
+        border-width: 1px 0 0 0;                  
+    }
+    
+    th
+    {
+        background-color: #4e4d49;
+        border-right: 1px solid #fff;
+        color: #fff;
+        font-weight: bold;
+        padding: 0.5em 1em;
+    }
+    
+    .subhead
+    {
+        border: 1px solid #dbd9cd;
+        border-width: 1px 0;
+        color: #393835;
+        background-color: #fff; 
+        font-size: 1em;
+        font-weight: bold;
+        padding: 1.25em 0 0.5em 0;          
+        text-align: right;
+    }
+
+    .label
+    {
+        font-weight: bold;             
+        text-align: right;
+        width: 70%;
+    }
+    
+    .auto
+    {
+        width: 50%;
+    }
+    
+    .end
+    {
+        border-bottom: 1px solid #dbd9cd; 
+    }
+    
+    tr:hover
+    {
+        background: #e6edbe;  
+    }
+    
+    table.nohover tr:hover
+    {
+        background: #fff;
+    }
+    
+    .hours
+    {
+        width: 340px;
+    }
+
+     a.dashed
+    {
+        color: #2d5ca6;
+        text-decoration: none;
+        border-bottom: 1px dashed #2d5ca6;
+    }
+    
+    a.dashed:hover
+    {
+        background-color: #ecebe6;         
+        border-bottom: 1px dotted #2d5ca6;
+    }     
+    
+    .cmstable
+    {
+    	width: 100%;
+	 }
+    
+       .cmstable th
+       {
+          text-align: left;
+          padding-left: 5px;
+       }
+       
+       .cmstable td
+       {
+          padding-left: 5px;
+       } 
+       
+       .cmstable td a.moveup
+       {
+          width: 20px;
+          height: 7px;
+          background: url(../../images/admin/arrow_up.png) top left no-repeat;
+          background-position: 0px 4px;
+          text-decoration: none;
+          padding-right: 20px;
+       }
+       
+       .cmstable td a.moveup:hover
+       {
+          background: url(../../images/admin/arrow_up.png) top left no-repeat;
+          background-position: 0px -10px;
+       }
+       
+       .cmstable td a.movedown
+       {
+          width: 10px;
+          height: 7px;
+          background: url(../../images/admin/arrow_down.png) top left no-repeat;
+          background-position: 0px 5px;
+          text-decoration: none;
+          padding-right: 20px;
+       }
+       
+       .cmstable td a.movedown:hover
+       {
+          background: url(../../images/admin/arrow_down.png) top left no-repeat;
+          background-position: 0px -10px;
+       }
+              
+	 
+	 th a
+	 {
+	 	color: white;
+	 } 
+    
+.admintablerowalt
+{
+   background-color: #F4F4F4;
+} 
+
+.warning
+{
+   border: 2px solid #666666;
+   border-radius: 6px;
+   padding: 10px;
+   margin-bottom: 10px;
+   display: block;
+   width: 400px;
+}
+
+DIV.ProgressBar { width: 100px; padding: 0; border: 1px solid black; margin-right: 1em; height:.75em; margin-left:1em; display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline; }
+DIV.ProgressBar DIV { background-color: Green; font-size: 1pt; height:100%; float:left; }
+SPAN.asyncUploader OBJECT { position: relative; top: 5px; left: 10px; }
+
+
+#image_properties
+{
+    text-align:left;
+    padding-left:10px;
+    padding-right:10px; 
+}
+
+#image_properties div div
+{
+    width: 110px !important;
+    color:#333333;
+    font-size:0.9em;
+    font-weight: bold;
+    float:left;
+    padding-top: 2px;;
+}
+
+#image_properties input
+{
+    width:260px;
+}
+
+#image_properties .button
+{
+    width:170px !important;
+}
+
+
+.blockUI > #controls > .right
+{
+    padding-right:10px;
+}
+
+#right_side
+{
+    width:620px;
+}
+
+.blockUI #files_listing
+{
+    height: 280px;
+    overflow-y : auto;
+}
+
+.blockUI #controls
+{
+    padding-top:10px
+}
+
+.blockUI #right_side
+{
+    width:650px;
+}
+
+#controls
+{
+    padding-right:16px;
+}
+
+.expand
+{
+    background: url(../../images/admin/toggle.png) !important;
+    width: 10px;
+    text-decoration: none;
+}
+
+.expanded .expand
+{
+     background: url(../../images/admin/toggle_collapse.png) !important;
+     
+}
+
+
+.child
+{
+    background: url(../../images/admin/arrow.gif);
+}
+
+#refresh_menus, #refresh_items, #refresh_folders, #refresh_files, #refresh_articles, #refresh_resources, #filemanager_refresh_files,#filemanager_refresh_folders
+{
+    padding-top:13px;
+}
+
+#refresh_categories
+{
+    padding-top:13px;
+    display:none;
+}
+
+#categories_div
+{
+    width : 300px;
+}
+
+.user_message
+{
+	border: 2px solid #666666;
+	border-radius: 6px;
+
+	padding: 15px;
+	background-color: #FDFDFD;
+	margin-bottom: 20px;
+}
+
+/**************** Button *****************/ 
+.btn-select-save
+{
+   width: 109px;
+   height: 30px;
+   display: block;
+   background: url(../../images/admin/btnselectsave.png) top left no-repeat; 
+}
+
+.arrow-up
+{
+	display: block;
+	width: 20px;
+	height: 11px;
+	background: url(../../images/admin/arrow_up.png) top left no-repeat;
+}
+
+.arrow-down
+{
+	display: block;
+	width: 20px;
+	height: 11px;
+	background: url(../../images/admin/arrow_down.png) top left no-repeat;
+	margin-left: 10px;
+}
+
+.padding-sm
+{
+	padding: 5px;
+}
+
+.long_input
+{
+    width: 550px;
+}
+
+.short_input
+{
+	width: 260px;
+}
+
+.userdownload
+{
+	height: 64px;
+	width: 64px;
+	display: block;
+	background: url(../../images/admin/i_download.png) top left no-repeat;	
+}
+
+/*Front Page*/
+.message_box
+{
+    width:200px;
+    height:20px;
+    background-color: #D2833F;    
+    color:#E3F3F9;
+    font-weight: bold;
+    margin-left: auto;    
+    margin-right: auto;
+    padding-top:2px;
+}
+.promo_box
+{
+    width:160px;  
+}
+    .promo_box > div
+    {
+        border-top: 1px solid #000;    
+        border-bottom: 1px solid #000;    
+        border-right: 1px solid #000;    
+        padding: 10px ;
+        height: 75px;            
+    }
+    
+    .promo_box.first > div
+    {
+        border-left: 1px solid #000;
+    }
+    
+    .promo_box > label
+    {
+        padding-left : 5px;
+    }
+    
+    .promo_box select
+    {
+        width: 140px;         
+    }
+    
+    .plain .row_title
+    {
+        float:left;
+        font-weight: bold;
+        margin-top: 20px;
+        width: 110px;
+    }
+    
+.front_page_column
+{
+    border: 1px solid #000;
+    padding-bottom: 0px;
+}      
+    .front_page_column .left, .front_page_column .right      
+    {
+        width: 350px;
+        float: left;
+        padding: 10px;    
+    }
+    .front_page_column .right      
+    {
+        border-left: 1px solid #000;    
+    }
+	
+.utils 
+{
+    float:right;
+    padding-right:10px;
+}
+
+    .utils a 
+    {
+        display: block;
+        height: 32px;
+        width: 32px;
+        float:left;
+        margin-left:5px;
+    }
+    
+        
+        .utils a.csv {background:url(../../images/admin/excel_logo.png) top left no-repeat;}
+
+.columns {list-style-type:none;margin:0;padding:0;}
+.columns li {float:left;margin:0 10px 10px;}
+#columns .btn {background:#A50D12;color:#FFF;font-size:14px;font-weight:bold;padding:5px 15px;
+border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-bottom:3px solid #8b171b;cursor:pointer;}	
+	
+
+.styledCheckbox 
+{
+    background: transparent url('../../images/member/frm-su-checkbox.png') top left no-repeat;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    height: 16px; width: 15px;    
+}
+
+.styledCheckbox.checked
+{
+    background: transparent url('../../images/member/frm-su-checkbox.png') bottom left no-repeat;
+}
+
+#cssmenu ul li.has-sub:hover > a{ z-index:999; } 
+#cssmenu ul li.has-sub:hover > ul, #cssmenu ul li.has-sub:hover > div{display:block;} 
+#cssmenu ul li > ul, #cssmenu ul li > div{ display:none; width:auto; position:absolute; top:38px; padding:10px 0;  z-index:999; } 
+#cssmenu ul li > ul{width:136px; top: 143px;} 
+#cssmenu ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative; border: 1px solid #CCCCCC; border-radius: 5px 5px 5px 5px;} 
+#cssmenu ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; width:59px; } 
+
+span.moveup, span.movedown {
+    cursor: pointer;
+}
+/* End Front Page */

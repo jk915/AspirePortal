@@ -1,0 +1,27 @@
+    .block, .btn, input[type="submit"], .home .mainCol
+    {
+        behavior: url(http://portal.aspirenetwork.net.au/PIE.htc);   
+        position: relative;    
+    } 
+    
+form.block
+{
+    *overflow: hidden;
+}
+
+.block input[type="submit"]
+{
+    *font-family: 'PTSansRegular', sans-serif;     
+    *padding: 2px 9px 2px 5px;
+}
+
+.partners tr.intro td
+{
+    *padding: 12px 10px 0;
+    *line-height: 5px;
+}
+
+.partners table a.btn
+{
+    *margin: 0 -10px 2px 0;
+}

@@ -1,0 +1,56 @@
+#breadcrumbs a
+{
+	color: #0e82c7 !important;
+	text-decoration: none;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+#breadcrumbs a:hover
+{
+	text-decoration: underline;
+}
+
+/* Page Specific
+ ---------------------------------------------------------------------*/
+
+#container 
+{
+
+margin:0 auto 10px;
+text-align:left;
+width:1000px;
+}
+.breadCrumbHolder
+{
+	margin:0 0 20px 0;
+}
+pre
+{
+	background:#ddd;
+	border:solid 1px #fff;
+	padding:10px;
+	color:#111;
+}
+.description
+{
+	float:left;
+	width:700px;
+	margin-right:20px;
+}
+.sideBar
+{
+	float:left;
+	background:#fff;
+	border:solid 1px #dedede;
+	padding:20px;
+	width:238px;
+	margin:50px 0 0 0;
+}
+.license p
+{
+	font-size:0.83333em;
+	color:#888;
+}
+
+

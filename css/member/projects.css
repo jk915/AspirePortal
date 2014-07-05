@@ -1,0 +1,575 @@
+div.inner
+{
+    visibility: hidden;    
+}
+
+.mainCol
+{
+    float: left;
+}
+
+.sidebar
+{
+    float: right;
+}
+
+p.imp
+{
+    font-family: 'PTSansBold', sans-serif;  
+    font-size: 15px;
+}
+
+p
+{
+    font-size: 13px;
+}
+
+ul.stats
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.tabNav
+{
+    border-bottom: 1px solid #666;
+    height: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabNav li
+{
+    background: transparent;
+    float: left;
+    margin: 0 0 0 -5px;
+    padding: 0;
+    width: 140px;
+}
+
+.tabNav li:first-child
+{
+    margin-left: 0;
+}
+
+.tabNav a
+{
+    background: url('../../images/member/tab-bk.png') top left repeat-x;    
+    color: #fff;
+    display: block;
+    font-family: 'PTSansBold', sans-serif;      
+    font-size: 14px;
+    height:  30px; width: 120px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.tabNav a.active, .tabNav a:hover
+{
+    background-position: bottom left;
+}
+
+ul.tabs
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs li
+{
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs table
+{
+    background: url('../../images/member/table-border.png') bottom left repeat-x;
+    padding-bottom: 3px;
+}
+
+.tabs td:first-child
+{
+    font-weight: bold;
+    text-align: right;
+    width: 120px;
+}
+
+.tabs td
+{
+    vertical-align: top;
+}
+
+table.info
+{
+    background: url('../../images/member/table-border.png') bottom left repeat-x;
+    margin: 10px 0 30px;
+}
+
+.info td
+{
+    font-weight: bold;
+    height: 21px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.info td img
+{
+    padding-right: 10px; 
+    vertical-align: text-bottom;
+}
+
+.info .returns td
+{
+    color: #a6a6a6;
+}
+
+.info .returns td img
+{
+    padding-right: 2px; 
+    vertical-align: middle;
+}
+
+ul.downloads
+{  
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.downloads li
+{
+    background: url('../../images/member/table-border.png') bottom left repeat-x;    
+    padding: 5px 0 0;
+}
+
+.downloads a
+{
+    background: url('../../images/member/icon-document.png') 10px center no-repeat;  
+    color: #262626;
+    display: block;
+    height: 21px;
+    padding: 5px 0 3px 37px;
+    text-decoration: none;
+}
+
+.downloads a:hover
+{
+    color: #a50d12;    
+    text-decoration: underline;
+}
+
+.heroSlider
+{
+    background: url('../../images/member/hero-bk.png') top left no-repeat;   
+    height: 675px; width: 640px;
+    margin: 0 0 25px;
+    position: relative;
+}
+
+.heroSlider h1
+{
+    color: #fff;
+    line-height: 1em;
+    margin: 0;
+    padding: 7px 20px 9px;
+}
+
+.heroSlider span.price
+{
+    color: #f2f2f2;
+    float: right;  
+}
+
+.heroSlider ul.secondary
+{
+    clear: both;
+    height: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 8px 10px;
+}
+
+.heroSlider .secondary li
+{
+    background: url('../../images/member/slider-divider.png') center left no-repeat;  
+    float: left;
+    padding: 0 10px;
+}
+
+.heroSlider .secondary li:first-child
+{
+    background: transparent;
+}
+
+.heroSlider .secondary a
+{
+    color: #fff;
+    font-family: 'PTSansBold', sans-serif;    
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.heroSlider .secondary a:hover
+{
+    color: #E5E5E5;
+}
+
+#hero
+{
+    position: absolute;
+        top: 69px; left: 0;
+}
+
+#thumbWrapper
+{
+    overflow: hidden;
+    position: absolute;
+        bottom: 63px; left: 0;    
+    height: 80px; width: 370px;
+
+}
+
+a#nextThumb, a#prevThumb
+{
+    background: url('../../images/member/sliderThumbs-next.png') top left no-repeat;      
+    display: block;
+        height: 30px; width: 30px;
+    position: absolute;
+        bottom: 113px; left: 380px;
+    z-index: 9999999;
+}
+
+a#prevThumb
+{
+    background: url('../../images/member/sliderThumbs-prev.png') top left no-repeat;    
+    bottom: 61px;  
+}
+
+a#nextThumb:hover, a#prevThumb:hover
+{
+    background-position: bottom left;
+}
+
+#floorplan
+{
+    background: #fff;
+    height: 452px; width: 640px;
+    position: absolute;
+        top: 69px; left: 0; 
+    z-index: 999;           
+}
+
+#floorThumb
+{
+    position: absolute;
+        bottom: 63px; right: 10px;    
+}
+
+ul.actions
+{
+    list-style: none;
+    height: 30px; width: 620px;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+        bottom: 0; left: 0;
+}
+
+.actions li
+{
+    background: transparent;
+    display: block;
+    float: left;
+    height: 30px;   
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 145px;
+}
+
+.actions li:first-child
+{
+    text-align: left;
+}
+
+.actions li.reserve
+{
+    text-align: center;
+    width: 330px;
+}
+
+.actions a
+{
+    background: url('../../images/member/arrow-right.png') right 7px no-repeat;    
+    color: #666; 
+    font-family: 'PTSansBold', sans-serif;         
+    font-size: 16px;
+    padding: 0 11px 0 0;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #ffffff;    
+}
+
+.actions a:hover
+{
+    color: #666;  
+    text-decoration: underline;
+}
+
+.actions a img
+{
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.actions li.reserve a
+{
+    background: url('../../images/member/btn-reserve.png') top left no-repeat;      
+    display: block;
+        height: 30px; width: 206px;
+    margin: 0 auto;
+    padding: 0;
+    text-indent: -99999px;
+}
+
+.actions .reserve a:hover
+{
+    background-position: bottom;
+}
+
+.subCol
+{
+    float: left;
+    padding: 0 0 20px 0;
+    width: 300px;
+}
+
+.subCol.alt
+{
+    padding-left: 40px;
+}
+
+h2
+{
+    clear: left;
+    font-size: 18px;
+}
+
+.subCol h2 a
+{
+    background: url('../../images/member/arrow-right.png') right 9px no-repeat;    
+    color: #666;   
+    float: right;
+    font-size: 13px;
+    padding: 5px 11px 0 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+.subCol h2 a:hover
+{
+    color: #666;  
+    text-decoration: underline;
+}
+
+.subCol img
+{
+    padding-bottom: 10px;
+}
+
+.subCol p
+{
+    padding-bottom: 5px;
+}
+
+
+* CSS for jQuery Orbit Plugin 1.2
+ * www.ZURB.com/playground
+ * Copyright 2010, ZURB
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+
+
+/* CONTAINER
+   ================================================== */
+
+div.orbit-wrapper {
+    width: 1px;
+    height: 1px;
+    position: relative; }
+
+div.orbit {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    overflow: hidden }
+
+div.orbit img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+
+div.orbit a img {
+    border: none }
+
+.orbit div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+
+/* TIMER
+   ================================================== */
+
+div.timer {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 1001; }
+
+span.rotator {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background: url(/playground/playground/jquery-image-slider-plugin/orbit/rotator-black.png) no-repeat;
+    z-index: 3; }
+
+span.mask {
+    display: block;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden; }
+
+span.rotator.move {
+    left: 0 }
+
+span.mask.move {
+    width: 40px;
+    left: 0;
+    background: url(/playground/playground/jquery-image-slider-plugin/orbit/timer-black.png) repeat 0 0; }
+
+span.pause {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/playground/playground/jquery-image-slider-plugin/orbit/pause-black.png) no-repeat;
+    z-index: 4;
+    opacity: 0; }
+
+span.pause.active {
+    background: url(/playground/playground/jquery-image-slider-plugin/orbit/pause-black.png) no-repeat 0 -40px }
+
+div.timer:hover span.pause,
+span.pause.active {
+    opacity: 1 }
+
+
+/* DIRECTIONAL NAV
+   ================================================== */
+
+div.slider-nav {
+    display: block }
+
+div.slider-nav span {
+    width: 100px;
+    height: 450px;
+    text-indent: -9999px;
+    position: absolute;
+    z-index: 1000;
+    top: 69px;
+    cursor: pointer; }
+
+div.slider-nav span.right {
+    right: 0; }
+
+div.slider-nav span.left {
+    left: 0; }
+
+/* BULLET NAV
+   ================================================== */
+
+ul.orbit-bullets 
+{
+    height: 80px;
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    width: 10000px;
+    position: relative;
+
+    z-index: 1000;
+
+ }
+
+ul.orbit-bullets li 
+{
+    background: transparent;
+    float: left;
+    margin: 0;
+    max-width: 113px;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    cursor: pointer;
+    color: #999;
+   }
+
+.orbit-bullets li img 
+{
+    height: 80px; 
+}
+
+
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('/playground/fonts/Chunkfive-webfont.eot');
+    src: url('/playground/fonts/Chunkfive-webfont.woff') format('woff'), url('/playground/playground/fonts/Chunkfive-webfont.ttf') format('truetype'), url('/playground/fonts/Chunkfive-webfont.svg#webfont90E2uSjN') format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+div.moreinfo
+{
+    background: url("../../images/member/table-border.png") no-repeat scroll left top transparent;    
+    padding-top: 20px;
+}
+
+
+div.moreinfo ul
+{
+    list-style-type: none;
+    margin: 0;    
+    padding: 0;
+}
+
+    div.moreinfo li
+    {
+        background: none;
+        margin: 0 0 20px 0;    
+        padding: 0;
+    }

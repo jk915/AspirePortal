@@ -1,0 +1,501 @@
+
+@font-face 
+{
+    font-family: 'PTSansCaptionBold';
+    src: url('fonts/PTC75F-webfont.eot');
+    src: url('fonts/PTC75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTC75F-webfont.woff') format('woff'),
+         url('fonts/PTC75F-webfont.ttf') format('truetype'),
+         url('fonts/PTC75F-webfont.svg#PTSansCaptionBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'PTSansCaptionRegular';
+    src: url('fonts/PTC55F-webfont.eot');
+    src: url('fonts/PTC55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTC55F-webfont.woff') format('woff'),
+         url('fonts/PTC55F-webfont.ttf') format('truetype'),
+         url('fonts/PTC55F-webfont.svg#PTSansCaptionRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.stocklist .mainCol
+{
+    float: left; 
+    width: 940px;
+}
+
+.stocklist h1
+{
+    padding-left: 10px;
+    width: 400px;
+}
+
+    /* move this to the relevant bit in the main stylesheet */
+    .stocklist #nav_stock
+    {
+        background: url('../../images/member/nav-hover-bk.png') top left repeat-x;  
+        border-color: #bf4549;
+        color: #fff;
+    }
+    
+
+ul#tabNav
+{
+    height: 30px;
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+}
+
+#tabNav li
+{
+    background: transparent;
+    float: left;
+    margin: 0 0 0 -5px;
+    padding: 0;
+    width: 158px;
+}
+
+#tabNav li:first-child
+{
+    margin-left: 0;
+}
+
+#tabNav a
+{
+    background: url('../../images/member/tab-bk-myproperty.png') top left repeat-x;    
+    color: #fff;
+    display: block;
+    font-family: 'PTSansBold', sans-serif;      
+    font-size: 14px;
+    height:  30px; width: 140px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#tabNav a.active, .tabNav a:hover
+{
+    background-position: bottom left;
+}
+
+ul#tabs
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+}
+
+#tabs>li
+{
+    background: transparent;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tabs>li:first-child
+{
+    display: block;
+}
+    
+    
+    ul.block
+    {
+        list-style: none;
+    }
+    
+    .block li
+    {
+        background: transparent;
+        margin: 0;
+        padding: 0;
+    }
+
+ul.options    
+{
+    background: url('../../images/member/table-border.png') top left repeat-x;        
+    list-style: none;
+    margin: 0;
+    padding: 15px 0 0;
+}
+
+.options li
+{
+    background: url('../../images/member/table-border.png') bottom left repeat-x;
+
+    margin: 0;
+    padding: 8px 15px;    
+}
+
+.options li h3
+{
+    color: #a50d12;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    font-size: 15px;
+    margin: 0;
+    padding: 0 10px 5px 0;
+    text-transform: uppercase;
+}
+
+.options li p
+{
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline;     
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+.options p span
+{
+    font-family: 'PTSansCaptionBold', sans-serif;
+}
+
+.options .cblabel
+{
+    cursor: pointer;
+    padding-right: 5px;
+}
+    
+.noUiSlider {
+    background: url('../../images/member/rangeSlider-bk.png') bottom left no-repeat;  
+    height: 15px;
+    margin: 0 0 0 5px;
+    padding: 0;
+    position: relative;
+    width: 240px;
+}
+
+.noUi-midBar {
+    background: url('../../images/member/rangeSlider-bar.png') bottom left no-repeat; 
+    height: 15px;
+    margin-top: 0;
+    z-index: 0;
+}
+.noUi-handle > div 
+{
+    background: url('../../images/member/rangeSliderArrow.png') top left no-repeat;  
+    height: 14px; width: 15px;
+    position: absolute;
+        top: 0px; left: -8px;
+    z-index: 5;
+}
+.noUi-handle > div:hover, .noUi-activeHandle {
+
+}
+
+
+.block input[type=""radio""]
+{ 
+    display: inline-block; vertical-align: middle; /* for ie */ zoom: 1; *display: inline; 
+    float: none; 
+    margin: 0 6px 0 0;
+    padding: 0;
+    width: auto;   
+}
+
+.styledRadio {
+    background: transparent url('../../images/member/frm-su-radio.png') top left no-repeat;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    height: 16px; width: 15px;    
+}
+
+.styledRadio.checked
+{
+    background: transparent url('../../images/member/frm-su-radio.png') bottom left no-repeat;
+}
+
+
+/* Property listing grid -------------------------------------------------------------------------------------  */  
+
+ul.propertyListing
+{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 15px 0 100px;
+    width: 940px;
+}
+
+.propertyListing>li
+{
+    background: transparent url('../../images/member/propertyList-bk.png') bottom center no-repeat; 
+    min-height: 274px; width: 220px;
+    float: left;    
+    margin: 0 0 30px;
+    padding: 0;
+    position: relative;
+    text-align: center;     
+}
+
+.propertyListing div.additionalInfo
+{
+    border-top: 1px dotted #f2f2f2;
+    display: none;
+    margin: 10px 0 5px;
+    padding: 5px 0;
+    text-align: left;
+}
+
+.propertyListing div.additionalInfo p
+{
+    font-size: 13px;
+    padding: 0 0 5px;
+}
+
+
+.propertyListing div.property
+{
+    border: 2px solid #262626;
+    min-height: 252px; width: 196px;    
+    margin: 0 auto;
+    -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -ms-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out; 
+    position: absolute;
+        top: 0; left: 10px;
+}
+
+.propertyListing div.propertyDetails
+{
+    padding: 10px;
+    min-height:118px;
+}
+
+.propertyListing h2
+{
+    color: #f2f2f2;
+    font-family: 'PTSansCaptionBold', sans-serif;    
+    font-size: 16px;
+    font-weight: normal;  
+    margin: 0;
+    padding: 0; 
+}
+
+.propertyListing h3
+{
+    color: #f2f2f2;
+    font-family: 'PTSansCaptionBold', sans-serif;    
+    font-size: 13px;
+    font-weight: normal;  
+    margin: 0;
+    padding: 0 0 12px; 
+}
+
+.propertyListing h4 /* price */
+{
+    color: #f2f2f2;    
+    font-family: 'PTSansCaptionBold', sans-serif;    
+    font-size: 16px;
+    font-weight: normal;  
+    margin: 0;
+    padding: 0;     
+}
+
+ul.specs
+{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 12px;
+    text-align: center;
+}
+
+.specs li
+{
+    color: #bfbfbf;
+    display: inline-block; vertical-align: top; /* for ie */ zoom: 1; *display: inline; 
+    height: 21px;
+    line-height: 24px;
+    margin: 0 0 0 12px;
+    padding: 0;
+    text-align: left;
+}
+
+.specs li:first-child
+{
+    margin-left: 0;
+}
+
+.specs li.beds
+{
+    background: transparent url('../../images/member/icon-bedrooms.png') bottom left no-repeat;  
+    padding-left: 32px;
+}
+
+.specs li.baths
+{
+    background: transparent url('../../images/member/icon-bathrooms.png') bottom left no-repeat;  
+    padding-left: 28px;
+}
+
+.specs li.parking
+{
+    background: transparent url('../../images/member/icon-garage.png') bottom left no-repeat;  
+    padding-left: 34px;
+}
+
+.propertyListing a.viewMore
+{
+    background: transparent url('../../images/member/propertyList-arrow.png') top right no-repeat;      
+    display: block;
+        height: 45px; width: 100%;
+    position: absolute;
+        bottom: -20px; right: 0;
+}
+
+.propertyListing>li:hover 
+{
+    background: transparent;
+}
+
+
+.propertyListing>li:hover a.viewMore
+{
+    background-position: right -90px;
+}
+
+.propertyListing>li:hover a.viewMore:hover
+{
+    background-position: right -90px;
+}
+
+.propertyListing>li:hover div.property
+{
+    background: #fff; 
+    border-color: #a50d12;
+    -webkit-box-shadow: 0px 5px 5px 2px #b9b9b9; box-shadow: 0px 5px 5px 2px #b9b9b9;     
+    z-index: 999999;  
+}
+
+.propertyListing>li:hover h2, .propertyListing>li:hover h3, .propertyListing>li:hover h4
+{
+    color: #262626;  
+} 
+
+.propertyListing a.overlay
+{
+    background: transparent;
+    display: block;
+        height: 100%; width: 100%;
+    position: absolute;
+        top: 0; left: 0;
+}
+
+/* map tab */
+#map
+{
+    height: 500px; width: 640px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mapWindow
+{
+ 
+}
+
+.mapWindow img
+{
+    clear: both;
+    display: block;
+    margin: 0 0 10px;
+}
+
+.mapWindow h2
+{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.mapWindow h3
+{
+    font-size: 15px;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.mapWindow a.btn
+{
+    float: left;
+}
+
+td
+{
+    vertical-align: top;
+}
+
+th
+{
+    vertical-align: bottom;
+}
+
+tr:hover td, tr.alt:hover td
+{
+    background: #fff;
+}
+
+tr.intro:hover td
+{
+    background: url('../../images/member/table-top-bk.png') bottom left no-repeat;  
+}
+
+div.inner
+{
+    visibility: hidden;   
+}
+
+input[type="text"]
+{
+    width: 240px;
+    padding: 5px;    
+}
+
+select
+{
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+    width: 250px;    
+}
+
+table th, table td
+{
+    padding-left: 5px;    
+    padding-right: 5px;
+}
+
+#mapPointInfo
+{
+    overflow: hidden !important;    
+}
+
+#mapPointInfo h3
+{
+    padding: 5px;    
+}
+
+ul#risk_comment
+{
+    list-style: none;
+    margin: 0;
+    padding: 0 10px 15px 0;
+    float:right;
+}
+
+#risk_comment li
+{
+    float: left;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+#risk_comment img
+{
+	position: relative;
+	top:5px;
+	padding-right:5px;
+	width:15px;
+}
